@@ -18,7 +18,7 @@ main().then((res)=>{
 
 
 async function main() {
-  await mongoose.connect('mongodb://127.0.0.1:27017/EcoHub');
+  await mongoose.connect('mongodb+srv://arkobag712409:V1uV3W9Clwekk8Ax@cluster0.8lvaz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 }
 
 
